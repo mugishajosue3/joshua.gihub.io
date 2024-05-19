@@ -229,6 +229,14 @@ span {
   80% {
     content: "Software Tester";
   }
+  61%,
+  80% {
+    content: "Forex Trader";
+  }
+  61%,
+  80% {
+    content: "Crypto Trader";
+  }
 }
 @keyframes typing {
   10%,
