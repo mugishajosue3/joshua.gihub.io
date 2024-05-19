@@ -223,19 +223,15 @@ span {
   }
   41%,
   80% {
-    content: "Web Developer";
-  }
-  61%,
-  80% {
     content: "Software Tester";
   }
-  61%,
-  80% {
-    content: "Forex Trader";
+  41%,
+  100% {
+    content: "Crypto Trader And Investor";
   }
   61%,
-  80% {
-    content: "Crypto Trader";
+  120% {
+    content: "Forex Trader";
   }
 }
 @keyframes typing {
