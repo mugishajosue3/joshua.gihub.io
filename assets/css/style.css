@@ -77,7 +77,7 @@ body {
   align-items: center;
   justify-content: space-between; /* Adjust horizontal alignment */
   gap: 15rem;
-  height: 26cm;
+  height: 20cm;
 }
 
 .home-content {
@@ -117,13 +117,13 @@ span {
   top: 3rem;
   width: 32vw;
   border-radius: 50%;
-  box-shadow: 0 0 25px var(--main-color);
+  box-shadow: 0 0 25px #0B3176;
   cursor: pointer;
   transition: 0.4s ease-in-out;
 }
 .home-img img:hover {
-  box-shadow: 0 0 25px var(--main-color), 0 0 50px var(--main-color),
-    0 0 100px var(--main-color);
+  box-shadow: 0 0 25px var(--main-color), 0 0 50px #0B3176,
+    0 0 100px #0B3176;
 }
 .home-content p {
   font-size: 2rem;
@@ -223,15 +223,11 @@ span {
   }
   41%,
   80% {
-    content: "Software Tester";
-  }
-  41%,
-  100% {
-    content: "Crypto Trader And Investor";
+    content: "Web Developer";
   }
   61%,
-  120% {
-    content: "Forex Trader";
+  80% {
+    content: "Software Tester";
   }
 }
 @keyframes typing {
@@ -550,7 +546,9 @@ span {
   font-size: 16px;
   color: white;
 }
-
+#pic{
+  height: 13cm;
+}
 @media (max-width: 1285px) {
   html {
     font-size: 55%;
